@@ -1,0 +1,16 @@
+{
+  "name": "@utilhq/demo",
+  "version": "1.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "bun --watch ./src/utilhq.ts"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@utilhq/sdk": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
